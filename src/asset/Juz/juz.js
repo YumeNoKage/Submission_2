@@ -1,4 +1,4 @@
-const juz = [
+const listjuz = [
   {
     id: "1",
     dari: "Surat Al-Fatihah Ayat 1",
@@ -150,3 +150,5 @@ const juz = [
     sampai: "Surat An-Nas Ayat 6",
   },
 ];
+
+export default listjuz;
