@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="82" height="82" viewBox="0 0 82 82">
+  <g id="ques" transform="translate(1 1)">
+    <g id="Group_4" data-name="Group 4">
+      <g id="Group_3" data-name="Group 3">
+        <path id="Path_21" data-name="Path 21" d="M225.808,343.22a4.2,4.2,0,0,0,0,8.39,4.2,4.2,0,1,0,0-8.39Z" transform="translate(-187.033 -289.594)" fill="#fff" stroke="#fff" stroke-width="2"/>
+        <path id="Path_22" data-name="Path 22" d="M194.755,140c-7.355,0-10.733,4.359-10.733,7.3a3.124,3.124,0,0,0,3.269,3.106c2.942,0,1.743-4.2,7.3-4.2,2.724,0,4.9,1.2,4.9,3.7,0,2.942-3.051,4.631-4.849,6.157a9.974,9.974,0,0,0-3.65,8.282c0,2.833.763,3.65,3,3.65,2.67,0,3.214-1.2,3.214-2.234,0-2.833.055-4.468,3.051-6.81,1.471-1.144,6.1-4.849,6.1-9.971S201.729,140,194.755,140Z" transform="translate(-155.273 -118.131)" fill="#fff" stroke="#fff" stroke-width="2"/>
+        <path id="Path_23" data-name="Path 23" d="M40,0A39.978,39.978,0,0,0,0,40V76.875A3.125,3.125,0,0,0,3.125,80H40A40,40,0,0,0,40,0Zm0,73.75H6.25V40A33.75,33.75,0,1,1,40,73.75Z" fill="#fff" stroke="#fff" stroke-width="2"/>
+      </g>
+    </g>
+  </g>
+</svg>
