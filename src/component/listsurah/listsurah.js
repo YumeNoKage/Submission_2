@@ -4,18 +4,23 @@ function fetchSurah() {
       return response.json();
     })
     .then((allSurah) => {
-      console.log(allSurah);
       const isiSurah = allSurah
         .map((surah) => {
           return `
-            <tr >
+            <tr>
               <th scope="row">${surah.nomor}</th>
-              <td><h3>${surah.asma}</h3><p>${surah.nama}</p></td>
+              <td><div style="font-size:1.75rem;">${surah.asma}</div><p class=" m-0">${surah.nama}</p></td>
               <td>${surah.ayat}</td>
               <td>${surah.type}</td>
               <td colspan="3">${surah.rukuk}</td>
-              <td><button type="button" class="btn btn-primary mb-3 mt-3">Baca</button></td>
-              <td><button type="button" class="btn btn-primary mb-3 mt-3">Keterangan</button></td>
+            </tr>
+            <tr>
+              <td colspan="5" class="text-center">
+                <p class=" pt-3">${surah.keterangan}</p>
+                <button type="button" class="btn btn-primary mb-4 " id="${surah.nomor}" value="${surah.nomor}" onclick="
+                  fetchIdBtn(${surah.nomor});
+                ">Baca Surah ${surah.nama}</button>
+              </td>
             </tr>
           `;
         })
